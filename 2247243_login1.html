@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create new account</title>
+</head>
+<style>
+	   div{
+		margin-top: 100px;
+		margin-left: 450px;
+		background-color:#BDBCD2;
+		height: 500px;
+		width: 450px;
+	}
+</style>
+
+<body background="christ6.png">
+
+	<div align="center" style="padding-top: 40px;">
+	<img src="christlogo-removebg-preview.png" style="width: 240px; height: auto;">
+	<br>
+	<h3>Create your new account</h3>
+	<label>Name:</label>
+	<input type="text" placeholder="Enter your name" name="textbox" id="t1"><br><br>
+	<label>Email Address:</label>
+	<input type="email" id="email" placeholder="Enter your email" name="email" multiple /><br><br>
+	<label>Phone number:</label>
+	<input type="tel" id="tel" placeholder="Enter your phone number" name="tel" /><br><br>
+	<label>Gender:</label>
+	<input type="radio" name="gender" value="male"> Male
+	<input type="radio" name="gender" value="female"> Female
+	<input type="radio" name="gender" value="others"> Others
+	<br><br>
+	<label for="course">Choose your course:</label>
+
+	<select name="course" id="course">
+	  <option value="MCA">MCA</option>
+	  <option value="MSC">MSC DATA SCIENCE</option>
+	  <option value="MSC1">MSC ARTIFICIAL INTELLIGENCE</option>
+	  <option value="MSC2">MSC MACHINE LEARNING</option>
+	</select><br><br>
+	<label>Enter your month of admission</label>
+	<input type="month" name="month" id="month" />
+
+	<h5>
+		<p><b>Click the button to get your geolocation for verfication</b></p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+</script>
+
+	 <a href="2247243_login.html"><input type="button" value="Create"></a>
+	</div>
+	</div>
+
+</body>
+</html>
