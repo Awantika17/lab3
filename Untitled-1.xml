@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+   <heading>The Subject Material for MCA is:</heading>
+   <book>
+      <title>Title -: Web Stack</title>
+      <faculty>Faculty-: Lokanayaki K</faculty>
+      <author>Author -: Chrisbates</author>
+      <publisher>Publisher -: Wiley</publisher>
+      <edition>Edition -: 3</edition>
+      <price>Price -: 1000</price>
+   </book>
+   <book>
+      <title>Title -: Microprocessor</title>
+      <faculty>Faculty-: Kavitha R</faculty>
+      <author>Author -: Ditel</author>
+      <publisher>Publisher -: Pearson</publisher>
+      <edition>Edition -: 3</edition>
+      <price>Price -: 400</price>
+   </book>
+   <book>
+      <title>Title -: Research Methodologies</title>
+      <faculty>Faculty-: Sandeep J</faculty>
+      <author>Author -: Foruouzan</author>
+      <publisher>Publisher -: Mc Graw Hill</publisher>
+      <edition>Edition -: 5</edition>
+      <price>Price -: 700</price>
+   </book>
+   <book>
+      <title>Title -: DBMS Concepts</title>
+      <faculty>Faculty-: Ruchi K</faculty>
+      <author>Author -: Navath</author>
+      <publisher>Publisher -: Oxford</publisher>
+      <edition>Edition -: 5</edition>
+      <price>Price -: 600</price>
+   </book>
+   <book>
+      <title>Title -: Software Engineering</title>
+      <faculty>Faculty-: Thiru S</faculty>
+      <author>Author -: Subhitab Das</author>
+      <publisher>Publisher -: Oxford</publisher>
+      <edition>Edition -: 8</edition>
+      <price>Price -: 300</price>
+   </book>
+</books>
